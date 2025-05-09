@@ -1,0 +1,34 @@
+baseURL = 'https://whlapinel.github.io/lapinel-fam'
+languageCode = 'en-us'
+title = 'Lapinel Family Website'
+theme = 'PaperMod'
+markup.goldmark.renderer.unsafe = true
+sectionPagesMenu = 'main'
+
+[[menu.main]]
+identifier = "categories"
+name = "Categories"
+url = "categories"
+weight = 20
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+
+[params]
+ShowBreadCrumbs = true    # optional: shows nav path
+ShowPostNavLinks = true
+ShowPostCategories = true
+
+[params.profileMode]
+enabled = true
+title = "Welcome to the Lapinel Family Website!"
+subtitle = "Where all your dreams come to life! 💫"
+imageUrl = "images/portrait.png"
+imageTitle = "Family Portrait"
+imageWidth = 180
+imageHeight = 180
+
+[[params.profileMode.buttons]]
+name = "Daily Challenge"
+url = "daily-challenge"
